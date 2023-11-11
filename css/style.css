@@ -1,0 +1,216 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;400;500;600;700&family=Teko:wght@400;500&display=swap');
+
+/* nvbar */
+.container{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    /* space betwen buat jarakin msing2 div */
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+section{
+    margin-left: 51px;
+    margin-right: 51px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+color: #000;
+font-family: Teko;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 9.275px;
+text-decoration: none;
+display: flex;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+
+}
+.logo a svg{
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+nav, .nav-right{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 57px;
+    font-family: 'Poppins';
+    line-height: 14px;
+}
+nav ul li:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    font-family: 'Poppins';
+}
+/* nutup dropdown smntara */
+.dropdown ul{
+    display: none;
+    position: absolute;
+    margin-left: -36px;
+    border-radius: 10px;
+}
+.dropdown ul li{
+    padding-left:12px;
+}
+/* menampilkan dropdown */
+.dropdown:hover a{
+    font-weight: 600;
+    cursor: pointer;
+}
+.dropdown:hover ul{
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.dropdown i{
+    margin-left: 8px;
+}
+form{
+    margin-left: 40px;
+    position: relative;
+}
+form i{
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    left: 16px;
+}
+form input{
+    border-radius: 30px;
+    background: linear-gradient(275deg, #B896FF -18.36%, #D6C3FE 29.5%, #DCA5E9 106.85%);
+    backdrop-filter: blur(12px);
+    border: none;
+    width: 100px;
+    padding: 8px 10px 8px 35px;
+    max-width: 188px;
+}
+/* navbr end */
+
+/* home page */
+#hero{
+    border-radius: 30px;
+    background: linear-gradient(275deg, #c8bfda -18.36%, rgb(208, 234, 245) 29.5%, #e9c2f1 106.85%);
+    font-family: 'Poppins';
+    overflow: hidden;
+    margin-top: 50px;
+}
+.bungkus{
+    position: relative;
+}
+
+.hero-title p:nth-child(1){
+    color: #000;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px;
+    margin-bottom: 27px;
+}
+.hero-left{
+    width: 50%;
+    margin-left: 43px;
+    margin-top: 33px;
+    margin-bottom: 45px;
+}
+.hero-title p span{
+    font-weight: 600;
+}
+.hero-title p:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 235px;
+}
+.hero-left a{
+    border-radius: 21px;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(26.574073791503906px);
+    padding: 28px 36px;
+}
+.hero-left a span{
+    font-size: 23px;
+    font-weight: 650;
+    background: linear-gradient(90deg, #D96BFF -15.36%, #FF96E2 105.12%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-right{
+    position: absolute;
+    width: 50%;
+    top: -8px;
+    right: 0;
+}
+.hero-right img{
+    width: 100%;
+}
+.three{
+    display: flex;
+    padding: 60px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px;
+    font-family: 'Poppins';
+}
+.three p{
+    color: #909090;
+    line-height: 0;
+}
+.three h1{
+    font-weight: 500;
+}
+.three hr{
+    min-height: 100%;
+    max-height: 100vh;
+    margin: 0;
+    border: 1px black solid;
+    display: flex;
+    height: 120px;
+}
+/* end home page */
+.pembungkus{
+    margin-left: 55px;
+    font-family: 'Poppins';
+}
+.pembungkus h1{
+    position: relative;  
+    display: inline-block;
+    background: linear-gradient(90deg, #DDA7EB 8.77%, #D4BCFC 151.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* buat naro garis ny sesudah text */
+.pembungkus h1:after{
+    content: " ";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 1000px;
+    height: 2px;
+    margin-left: 20px;
+    top: 50%;
+}
+
+
+
+
+
+

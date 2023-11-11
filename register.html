@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>bootsrap login</title>
+</head>
+<body>
+    <main class="container d-flex justify-content-center align-items-center py-3 py-md-0 rounded-5 ">
+        <div class="shadow overflow-hidden rounded-5">
+            <div class="row mx-5 my-2 my-2 px-5">
+
+                <!-- kiri -->
+                <div class="col-md-6 my-3 d-flex justify-content-center align-items-center ">
+                    <img src="img/blibli.png" alt="login-img" class="img-fluid">
+                </div>
+
+                <!-- kanan -->
+                <div class="col-md-6 my-3 justify-content-center align-items-center">
+                    <div> 
+                        <h3 class="text-center text-info-emphasis mb-5">Daftar di blibli</h3>
+                        <form action="" method="post" class="shadow p-3 rounded-4 ">
+                            <div class="form-floating mb-3">
+                                <input type="name" class="form-control border-0 nama" id="floatingInput" placeholder="Nama Lengkap" name="nama">
+                                <label for="floatingInput">Nama Lengkap</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 email" id="floatingInput" placeholder="email/nomor Hp" name="email">
+                                <label for="floatingInput">Email/nomor Hp</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control border-0 pass" id="floatingPassword" placeholder="password" name="pass">
+                                <label for="floatingPassword">Kata sandi<!-- <i class='bx bx-low-vision '></i> --></label>
+                            </div>
+                            <div class="text-center mt-3 mb-3">
+                                <button type="submit" class="btn btn-success rounded-3 py-2 px-5 tombol">Daftar</button>
+                            </div>
+                        </form>
+                        <div class="d-flex justify-content-center">
+                            <div class="d-flex gap-4 mt-4 mb-4">
+                                <button class="btn py-2 px-3 shadow rounded-4 d-flex gap-2 align-items-center fs-6"><i class='bx bxl-facebook-circle' style='color:#3056c3'></i>Facebook</button>
+                                <button class="btn py-2 px-3 shadow rounded-4 d-flex gap-2 align-items-center fs-6"><img src="https://www.static-src.com/frontend/member/static/3.90.0-1/desktop/img/google.fa6e9370.svg" width="15px">
+                                    Google</button>
+                            </div>
+                          
+                        </div>
+                        <p class="text-center small text-secondary">Sudah Terdaftar?<a href="" class="text-decoration-none">Masuk</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Kata Sandi baru</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-secondary fs-6">Masukan Email/nomor Hp yang terdaftar untuk buat kata Sandi</p>
+              <form>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control border-0" id="floatingPassword" placeholder="password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success w-100">Lanjutkan</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- modal end -->
+
+    
+    <!-- script js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>

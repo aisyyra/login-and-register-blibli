@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;200;400;500;600;700&family=Teko:wght@400;500&display=swap');
+
+body{
+    height: 100vh !important;
+    font-family: 'Poppins' !important;
+    
+}
+.shadow{
+    box-shadow: 0 0 0 0.5rem rgb(0 0 0 0.5) !important;
+}
+label{
+    color: #737c7c !important;
+}
+input{
+    background: #f0ffff !important;
+}
+input:hover{
+    background:  #dff3f3 !important;
+    transition: 0.3s ease-in-out;
+}
+label::after{
+    background: none !important;
+    background: none !important;
+}
+.form-control:focus ~ label{
+    color: #737c7c !important;
+    background: none !important;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn1{
+    border: none;
+    background: none;
+    color: black;
+}
+.btn1:hover{
+    border: none;
+    background: none;
+    color: #81bdbd;
+    font-weight: 400;
+}
+.pass{
+    font-size: 0.8rem;
+}
+.tombol:disabled{
+    background: rgb(223, 223, 223)177, 174, 174;
+}
+button{
+    text-decoration: none;
+}
